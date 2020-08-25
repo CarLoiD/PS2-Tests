@@ -1,4 +1,4 @@
-APPNAME		= PS2Tests
+APPNAME     = PS2Tests
 SHELL       = /bin/sh
 
 TOP         = /usr/local/sce/ee
@@ -15,7 +15,7 @@ LIBS        = $(LIBDIR)/libgraph.a \
               $(LIBDIR)/libdev.a \
               $(LIBDIR)/libpkt.a \
               $(LIBDIR)/libpad.a \
-			  $(LIBDIR)/libvu0.a
+	      $(LIBDIR)/libvu0.a
 
 PREFIX      = ee
 AS          = $(PREFIX)-gcc
